@@ -177,3 +177,10 @@ div.pictur{
   }
 
   /*et ici ssa sera les modofication par rapport au footer*/
+
+  footer{
+    border-top: 0.5px solid #005B00;
+    border-bottom: 0.5px solid #005B00;
+    margin: 25px 0 25px 0;
+    
+  }
