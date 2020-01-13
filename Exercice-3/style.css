@@ -1,0 +1,179 @@
+/*les modification qui seron en rapport avec la balise body ou html*/
+
+body{
+    width: 960px;
+    margin: auto;
+}
+
+/*ici on modifie tous ce qui se trouve dans le header*/
+
+#logo{
+  margin-left: 85px;
+}
+
+/*modification du menu*/
+
+#navfond{
+  margin: 15px 0 15px 0;
+  border-bottom: 0.5px solid #005B00;
+  border-top: 0.5px solid #005B00;
+  width: 574px;
+  float: right;
+  margin-top: 85px;
+     
+}
+
+ul.navtop{
+  display: block ruby;
+}
+
+ul.navtop li{
+  padding: 12px;
+  display: block;
+}
+
+ul.navtop li a{
+  text-decoration: none;
+  font-size: 25px;
+  border-left: 0.5px solid #166905;
+  padding: 21px;
+} 
+
+ul.navtop li.right a{
+border-right: 0.5px solid #166905;
+padding: 21px 42px 21px 21px;
+}
+
+
+
+ul.navtop li a:hover:not(.active){
+  color: rgb(54, 192, 24);
+  background-color: rgb(224, 247, 217);
+}
+
+ul.navtop li a.active{
+ color: #4AFF21;
+  
+}
+
+/*ici nous modifions tout ce qui est dans le boby*/
+
+
+#fond{
+    border-top: 0.5px solid #005B00;
+    border-bottom: 0.5px solid #005B00;
+    
+}
+
+div.clear{
+  clear:both; 
+  float:none;
+}
+
+#left{
+    float:left;
+    width: 350px;
+    border: 0.5px solid #166905;
+    border-radius: 1%;
+    margin: 20px;
+}
+
+#title{
+
+  font-size: 30px;
+  padding: 10px;
+
+}
+
+.red{
+  font-size: 15px;
+  color: #1A701D;
+  font-style: oblique;
+}
+
+#right{
+  float: right;
+  border: 0.5px solid
+  #005B00;
+  margin-right: 1px;
+  border-radius: 1%;
+  height: 319px;
+  margin-top: 320px;
+}
+
+iframe{
+  padding:2px;
+}
+
+/*modification citation*/
+
+#cit{
+
+font-size: 25px;
+padding: 10px;
+border-radius: 1%;
+margin: 25px;
+
+}
+
+p.cit{
+
+  border-top: 0.5px solid #005B00;
+  border-bottom: 0.5px solid #005B00;
+  margin: 20px;
+
+}
+
+p.author{
+  float: right;
+  border-left: 0.5px solid #005B00;
+  border-right: 0.5px solid #005B00;
+  margin-right: 20px;
+}
+
+a.a{
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover{
+  color: #4AFF21;
+}
+
+p{
+  padding: 10px;
+  text-align: justify;
+}
+
+/*modification galerie*/
+
+
+div.desc{
+  font-size: 15px;
+}
+
+div.pictur{
+    margin: 5px;
+    border: 1px solid #1A701D;
+    border-radius: 1%;
+    float: left;
+    width: 308px;
+    margin-top: 45px;
+  }
+  
+  div.pictur:hover {
+    border: 1px solid #4AFF21;
+    border-radius: 1%;
+  }
+  
+  div.pictur img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 13px;
+    text-align: center;
+  }
+
+  /*et ici ssa sera les modofication par rapport au footer*/
